@@ -13,6 +13,8 @@
 		0969834226B6922B003976FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0969834126B6922A003976FA /* Preview Assets.xcassets */; };
 		0969834426B6922B003976FA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969834326B6922B003976FA /* Persistence.swift */; };
 		0969834726B6922B003976FA /* Wizard_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0969834526B6922B003976FA /* Wizard_2.xcdatamodeld */; };
+		0969835326B69358003976FA /* Wizard+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969835126B69358003976FA /* Wizard+CoreDataClass.swift */; };
+		0969835426B69358003976FA /* Wizard+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969835226B69358003976FA /* Wizard+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0969834326B6922B003976FA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0969834626B6922B003976FA /* Wizard_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wizard_2.xcdatamodel; sourceTree = "<group>"; };
 		0969834826B6922B003976FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0969835126B69358003976FA /* Wizard+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wizard+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		0969835226B69358003976FA /* Wizard+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wizard+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				0969833A26B69226003976FA /* Wizard_2App.swift */,
+				0969834F26B692CA003976FA /* Model */,
 				0969833C26B69226003976FA /* ContentView.swift */,
 				0969833E26B6922A003976FA /* Assets.xcassets */,
-				0969834326B6922B003976FA /* Persistence.swift */,
 				0969834826B6922B003976FA /* Info.plist */,
-				0969834526B6922B003976FA /* Wizard_2.xcdatamodeld */,
 				0969834026B6922A003976FA /* Preview Content */,
 			);
 			path = "Wizard 2";
@@ -73,6 +76,17 @@
 				0969834126B6922A003976FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0969834F26B692CA003976FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0969835126B69358003976FA /* Wizard+CoreDataClass.swift */,
+				0969835226B69358003976FA /* Wizard+CoreDataProperties.swift */,
+				0969834526B6922B003976FA /* Wizard_2.xcdatamodeld */,
+				0969834326B6922B003976FA /* Persistence.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +160,9 @@
 			files = (
 				0969834426B6922B003976FA /* Persistence.swift in Sources */,
 				0969833D26B69226003976FA /* ContentView.swift in Sources */,
+				0969835426B69358003976FA /* Wizard+CoreDataProperties.swift in Sources */,
 				0969833B26B69226003976FA /* Wizard_2App.swift in Sources */,
+				0969835326B69358003976FA /* Wizard+CoreDataClass.swift in Sources */,
 				0969834726B6922B003976FA /* Wizard_2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
